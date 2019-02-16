@@ -1,0 +1,99 @@
+@font-face  {
+			font-family: 'Lato-Black.ttf';
+			src: url('polices/Lato-Black.ttf');
+}
+@font-face  {
+			font-family: 'Lato-BlackItalic.ttf';
+			src: url('polices/Lato-BlackItalic.ttf');
+}
+@font-face  {
+			font-family: 'Lato-Regular.ttf';
+			src: url('polices/Lato-Regular.ttf');
+}
+@font-face  {
+			font-family: 'Lato-Bold.ttf';
+			src: url('polices/Lato-Bold.ttf');
+}
+
+@font-face  {
+			font-family: 'Lato-Italic.ttf';
+			src: url('polices/Lato-Italic.ttf');
+}
+@font-face  {
+			font-family: 'Lato-Light.ttf';
+			src: url('polices/Lato-Light.ttf');
+}
+
+
+@font-face  {
+			font-family: 'Montserrat-Light.ttf';
+			src: url('polices/Montserrat-Light.ttf');
+		}
+@font-face  {
+			font-family: 'Montserrat-Regular.ttf';
+			src: url('polices/Montserrat-Regular.ttf');
+		}
+
+body 		{background: url(Images/fond.png) no-repeat; margin: 0; padding: 0;}
+
+
+#menu		{height: 80px; padding: auto; margin: 10px;}
+
+
+#m-right	{
+	    	margin-top: 25px; margin-right: 20px;
+			font-family: 'Montserrat-Regular.ttf';
+			 font-size: 18px;
+			 text-decoration: none; 
+			float: right;
+			display: inline-block; padding: 5px;
+			
+			}
+.m-a       {
+			transition: all 0.3s ease-in-out;
+			border-bottom: 2px solid;
+			border-top: 2px solid;
+			text-align: center;
+			text-decoration: none;
+			color: #fff;
+			 padding: 10px; margin: 5px;
+			
+			}
+
+.m-a:hover {background-color: #f59d00;
+			border-color: #f59d00;
+			 padding: 25px 10px; margin: 11px;
+			 color: white;
+			}
+
+
+#m-left		{margin-top: 25px; margin-left: 20px;
+	         font-family:'Lato-BlackItalic.ttf';
+			font-size: 30px; float: left;
+
+			}
+
+
+.logo	 	{border-color: #e87e03;
+			 border: 2px solid;
+			padding: 10px;
+			text-decoration: none;
+			color: #fff; padding-top: 50px solid;}
+
+#pdp		{font-family: 'Lato-Regular.ttf';
+			height: 40px;
+			 background-color: #333333;
+			text-align: center; 
+			-moz-border-bottom-left-radius: 10px;
+			-webkit-border-bottom-left-radius: 10px;
+			-o-border-bottom-left-radius:10px;
+
+			-moz-border-bottom-right-radius:10px;
+			-webkit-border-bottom-right-radius: 10px;
+			-o-border-bottom-right-radius:10px;
+			margin-top: 0; margin-bottom: 0;
+	}
+.pdp 		{padding: 10px;color:#fff;}
+
+.ver		{color: #2c97de;}
+
